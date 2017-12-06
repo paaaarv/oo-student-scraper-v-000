@@ -10,20 +10,6 @@ class Student
         self.name = value
       elsif key == :location
         self.location = value
-      elsif key == :twitter
-        self.twitter = value
-      elsif key == :linkedin
-        self.linkedin = value
-      elsif key == :github
-        self.github = value
-      elsif key == :blog
-        self.blog = value
-      elsif key == :profile_quote
-        self.profile_quote = value
-      elsif key == :bio
-        self.bio = value
-      elsif key == :profile_url
-        self.profile_url = value
       end
       @@all << self
   end
@@ -39,6 +25,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
+
 
   end
 
