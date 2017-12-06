@@ -33,7 +33,6 @@ class Student
   def self.create_from_collection(students_array)
     students_array.each do |student|
       stud = Student.new(name: student[:name], location: student[:location])
-      binding.pry
     end
 
 
